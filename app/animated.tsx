@@ -9,7 +9,7 @@ export default function Animated() {
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
         whileHover={{ scale: 2.0, rotate: 10 }} // hover effect
       >
         <img
